@@ -79,7 +79,7 @@ func Right(text string, length int) string {
 	return Pad(text, RightDir, length, ' ')
 }
 
-// RIghtChar will pad the right of the string with the specified character to
+// RightChar will pad the right of the string with the specified character to
 // meet the specified length.
 func RightChar(text string, length int, char byte) string {
 	return Pad(text, RightDir, length, char)
