@@ -35,10 +35,18 @@ func main() {
 
 Simple!
 
+You can see more on the available functions and how to use them by reading the 
+[![Godoc](https://camo.githubusercontent.com/994c4dfb011a5952ca63171965089d673f8bc142/68747470733a2f2f676f646f632e6f72672f6769746875622e636f6d2f756e69706c616365732f636172626f6e3f7374617475732e737667)](https://godoc.org/github.com/clagraff/pad) page for the package.
+
+
 ## Issues and Feedback
 Feel free to submit issues, feature suggestions, or pull requests on Github
 at: https://github.com/clagraff/pad
 
+Updated tests, benchmarks, or improvements to the code are always welcome!
+
 ## Why?
 Idk. I was bored and wanted something to do. So I made a left-pad implementation
 in Golang.
+
+Like it? Feel free to give it a star so I know it was appreciated. Thanks!
