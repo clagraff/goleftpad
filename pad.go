@@ -22,7 +22,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 */
 
-// pad provides basic functionallity for padding sides of a string.
+// Package pad provides basic functionality for padding sides of a string.
 package pad
 
 import "bytes"
