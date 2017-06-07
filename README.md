@@ -21,17 +21,25 @@ go get github.com/clagraff/pad
 Here are a few examples of the package in action:
 
 ```go
+package main
+
+import (
+	"fmt"
+
+	"github.com/clagraff/pad"
+)
+
 func main() {
-    fmt.Println(pad.Left("foo", 6))             // "   foo"
-    fmt.Println(pad.LeftChar("foo", 6, '~'))    // "~~~foo"
+	fmt.Println(pad.Left("foo", 6))          // "   foo"
+	fmt.Println(pad.LeftChar("foo", 6, '~')) // "~~~foo"
 
-    fmt.Println(pad.Right("fizz", 4))           // "fizz "
-    fmt.Println(pad.RightChar("fizz", 4, '+'))  // "fizz+"
+	fmt.Println(pad.Right("fizz", 5))          // "fizz "
+	fmt.Println(pad.RightChar("fizz", 5, '+')) // "fizz+"
 
-    fmt.Println(
-        pad.Pad("left", pad.LeftDir, 8, '_'),   // "____left"
-        pad.Pad("right", pad.RightDir, 8, "_"), // "right___"
-    )
+	fmt.Println(
+		pad.Pad("left", pad.LeftDir, 8, '_'),   // "____left"
+		pad.Pad("right", pad.RightDir, 8, '_'), // "right___"
+	)
 }
 ```
 
