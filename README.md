@@ -8,6 +8,13 @@ but for Golang, and it supports right padding too!
 [![Godoc](https://camo.githubusercontent.com/994c4dfb011a5952ca63171965089d673f8bc142/68747470733a2f2f676f646f632e6f72672f6769746875622e636f6d2f756e69706c616365732f636172626f6e3f7374617475732e737667)](https://godoc.org/github.com/clagraff/pad)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
+## :warning: Notice :warning:
+I guess I need this disclaimer: **This is a joke repo**, made in the wake of the [left-pad debacle](https://github.com/stevemao/left-pad/issues/4) to get laughs from coworkers. 
+Use it for kicks and laughs, but not for production. Please.
+
+![please leave](https://media.giphy.com/media/1Qjbik4iLFFJe/giphy.gif)
+
+
 ## Installation
 Just run in your terminal:
 
@@ -54,9 +61,3 @@ Feel free to submit issues, feature suggestions, or pull requests on Github
 at: https://github.com/clagraff/pad
 
 Updated tests, benchmarks, or improvements to the code are always welcome!
-
-## Why?
-Idk. I was bored and wanted something to do. So I made a left-pad implementation
-in Golang.
-
-Like it? Feel free to give it a star so I know it was appreciated. Thanks!
